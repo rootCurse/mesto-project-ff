@@ -20,3 +20,37 @@
     margin-right: 0;
   }
 }
+
+.avatar__container{
+  position: relative;
+}
+
+.avatar__edit-container {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar__edit-button{
+  width: 80px;
+  height: 80px; 
+  background-color: initial; 
+  border: none;
+  cursor: pointer;
+}
+
+.avatar__edit-container:hover {
+  opacity: 1;
+}

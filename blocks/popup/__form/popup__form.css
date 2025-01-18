@@ -1,3 +1,12 @@
 .popup__form {
   margin-top: 27px;
 }
+
+.popup__error_visible{
+  color: #FF0000;
+  font-size: 12px;
+  font-family: 'Inter', Arial, sans-serif;
+  line-height: 15px;
+  font-weight: 400px;
+  display: none;
+}
